@@ -15,6 +15,6 @@ for (i=0; i < plugins.length; i++) {
 	var plugin = plugins[i];
 	url += "&p"+i+"="+plugin.name;
 }
-url += "&cookie="+cookie
+url += "&cookie="+cookie;
 document.write("<img src='"+url+"'/>");
 
